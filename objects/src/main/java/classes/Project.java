@@ -4,10 +4,12 @@ import org.jetbrains.annotations.Nullable;
 import javax.persistence.*;
 
 @Entity
-public class project {
+public class Project {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO) private int id;
+    public String description;
+    public String name;
 
     public String getName() {
         return name;
@@ -17,7 +19,6 @@ public class project {
         this.name = name;
     }
 
-    public String name;
 
     public String getDescription() {
         return description;
@@ -27,11 +28,13 @@ public class project {
         this.description = description;
     }
 
-    public String description;
 
-    public project(){
+
+    public Project(){
 
     }
+
+    public Project(int id){this.id=id;}
 
     public int getId() {
         return id;

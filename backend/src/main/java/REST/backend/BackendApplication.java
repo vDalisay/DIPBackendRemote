@@ -1,4 +1,4 @@
-package fhict.backend;
+package REST.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 
 @EntityScan(basePackages = {"classes"})
-@EnableJpaRepositories(basePackages = {"fhict.*"})
+@EnableJpaRepositories(basePackages = {"REST.*"})
 @SpringBootApplication
 public class BackendApplication {
 
