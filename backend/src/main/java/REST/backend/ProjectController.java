@@ -6,8 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.websocket.ClientEndpoint;
+import java.io.IOException;
 
 @ClientEndpoint
 @Controller
@@ -34,8 +36,8 @@ public class ProjectController {
 
     @PostMapping("/")
     public @ResponseBody
-    ResponseEntity<String> addNewProject(@RequestBody String body){
-        Project temp = gson.fromJson(body,Project.class);
+    ResponseEntity<String> addNewProject(@RequestParam("name")String name, @RequestParam("description") String description, @RequestParam("file")MultipartFile file) throws IOException {
+        Project temp = new Project(name,description,file);
         projectRepository.save(temp);
         return ResponseEntity.ok("Saved");
     }
