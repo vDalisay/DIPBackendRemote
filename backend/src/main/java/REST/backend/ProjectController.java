@@ -20,7 +20,7 @@ public class ProjectController {
     Gson gson = new Gson();
 
     public ProjectController(){ }
-
+    @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping("/all")
     public @ResponseBody
     Iterable<Project> getAllProjects() {

@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f45bc8-2334-4f0f-8cab-5ee489444df0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/REST/backend/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/REST/backend/BackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/REST/backend/BackendApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/REST/backend/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/REST/backend/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/src/main/java/classes/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/objects/src/main/java/classes/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/target/classes/classes/project.class" beforeDir="false" afterPath="$PROJECT_DIR$/objects/target/classes/classes/project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/REST/backend/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/REST/backend/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dipBackEnd.iml" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +28,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1ZwBgCiqPlRBeWFDWicovTPuTw1" />
   <component name="ProjectViewState">
@@ -45,6 +63,18 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Luc\Desktop\ICT\S4\FUN\musicquiz\dipBackEnd" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.BackendApplication (1)">
     <configuration name="BackendApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -79,6 +109,12 @@
       <workItem from="1587453047967" duration="13005000" />
       <workItem from="1587541166490" duration="4527000" />
       <workItem from="1588362950644" duration="35000" />
+      <workItem from="1588757910405" duration="1425000" />
+      <workItem from="1588775655766" duration="1785000" />
+      <workItem from="1588858727590" duration="971000" />
+      <workItem from="1589274241646" duration="434000" />
+      <workItem from="1589281833721" duration="1877000" />
+      <workItem from="1589284674103" duration="1727000" />
     </task>
     <task id="LOCAL-00001" summary="added post and get messages">
       <created>1586957317259</created>
@@ -93,100 +129,73 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added post and get messages" />
     <option name="LAST_COMMIT_MESSAGE" value="added post and get messages" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Assign_Data_Sources" timestamp="1587458143196">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="178" key="#Assign_Data_Sources/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587458143196" />
-    <state x="-1155" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585740977598">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1155" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585740977598" />
-    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586951776024">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586951776024" />
-    <state x="559" y="114" key="CommitChangelistDialog2" timestamp="1586957316219">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="559" y="114" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586957316219" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1587557264179">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587557264179" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585740996879" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1587557264179">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587557264179" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585740996879" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1587557264179">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587557264179" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585740996879" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1587557264179">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587557264179" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585740996879" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1587557264180">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587557264180" />
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585740996879" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1587557264179">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587557264179" />
-    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585740996879" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1587557264179">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587557264179" />
-    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585740996879" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1587557264179">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587557264179" />
-    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585740996879" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1587557264180">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587557264180" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1587557264180">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587557264180" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1587557264180">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587557264180" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1587557264180">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587557264180" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1587456678712">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587456678712" />
-    <state x="-1430" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585740592033" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586957318445">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586957318445" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1588362966265">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588362966265" />
-    <state x="-1578" y="215" key="new project wizard" timestamp="1585740490198">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1578" y="215" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585740490198" />
+    <state x="552" y="178" key="#Assign_Data_Sources" />
+    <state x="552" y="178" key="#Assign_Data_Sources/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state x="-1155" y="204" key="#com.intellij.ide.util.MemberChooser" />
+    <state x="-1155" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" />
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" />
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state x="559" y="114" key="CommitChangelistDialog2" />
+    <state x="559" y="114" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state x="-1430" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" />
+    <state x="-1578" y="215" key="new project wizard" />
+    <state x="-1578" y="215" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
