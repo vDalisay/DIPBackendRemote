@@ -1,5 +1,6 @@
 package REST.backend;
 
+import classes.File;
 import classes.Project;
 import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +18,8 @@ import java.io.IOException;
 public class ProjectController {
     @Autowired
     IProjectRepository projectRepository;
+    @Autowired
+    IFileRepository fileRepository;
     Gson gson = new Gson();
 
     public ProjectController(){ }
@@ -25,6 +28,12 @@ public class ProjectController {
     public @ResponseBody
     Iterable<Project> getAllProjects() {
         return projectRepository.findAll();
+    }
+
+    @GetMapping("/allFile")
+    public @ResponseBody
+    Iterable<File> getAllFiles() {
+        return fileRepository.findAll();
     }
 
     @GetMapping("/{id}")
@@ -36,9 +45,11 @@ public class ProjectController {
 
     @PostMapping("/")
     public @ResponseBody
-    ResponseEntity<String> addNewProject(@RequestParam("name")String name, @RequestParam("description") String description, @RequestParam("file")MultipartFile file) throws IOException {
-        Project temp = new Project(name,description,file);
+    ResponseEntity<String> addNewProject(@RequestBody String body) {
+        Project temp = gson.fromJson(body,Project.class);
+        File newFile = gson.fromJson(body,File.class);
         projectRepository.save(temp);
+        fileRepository.save(newFile);
         return ResponseEntity.ok("Saved");
     }
 }

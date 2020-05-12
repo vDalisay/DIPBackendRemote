@@ -6,8 +6,10 @@ import javax.persistence.*;
 import javax.sound.sampled.AudioFormat;
 import java.io.*;
 import java.nio.file.Files;
+import java.sql.Array;
 import java.sql.Blob;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.Base64;
 
 @Entity
@@ -17,9 +19,17 @@ public class Project {
     @GeneratedValue(strategy = GenerationType.AUTO) private int id;
     public String description;
     public String name;
-    @Transient public MultipartFile fileRaw;
-    @Lob public byte[] file;
+    //@Transient public MultipartFile fileRaw;
+    //@Transient public String file;
+    public String status;
 
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
 
     public int getId() {
         return id;
@@ -48,14 +58,15 @@ public class Project {
 
 
 
+
     public Project(){
 
     }
 
-    public Project(String name,String description,MultipartFile file) throws IOException {
+    public Project(String name,String description,String status) {
         this.name = name;
         this.description = description;
-        this.file = Base64.getEncoder().encode(file.getBytes());
+        this.status = status;
     }
 
     public Project(int id){this.id=id;}
